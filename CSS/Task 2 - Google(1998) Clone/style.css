@@ -1,36 +1,56 @@
-#googlelogo {
-    text-align: center;
-
-}
-#search-area {
-    margin: auto;
-    width: 80%;
-    height: 80px;
-    background-color: rgba(194, 194, 194, 0.171);
-    text-align: center;
-
-}
-input[type="text"]{
-    width: 300px;
-    margin: 0 auto;
-}
-#others{
-    margin: 2px auto;
-    width: 80%;
-    height: 100px;
-    display: flex;
-    text-align: center;
-    background-color: rgba(194, 194, 194, 0.171);
+body {
+    margin: 0;
+    width: 100%;
+    position: relative;
+    font-family: 'Pixelated MS Sans Serif', Arial, sans-serif;
 }
 
-.content{
-    height: 100%;
+main {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin: 1px;
 }
-#footer{
-    text-align: center;
-    font-size: 12px;
+
+table {
+    border: 0;
+    width: 86%;
+}
+
+.logo {
+    margin: 0 auto;
+}
+
+#search {
+    padding-bottom: 20px;
+}
+
+input[type=text] {
+    line-height: 2;
+    height: 23px;
+    width: 295px;
+    padding: 2px 4px;
+    box-shadow: inset -1px -1px #fff, inset 1px 1px grey, inset -2px -2px #dfdfdf, inset 2px 2px #0a0a0a;
+    background-color: #fff;
+    border: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: 0;
+}
+
+input[type="submit"] {
+    vertical-align: top;
+    font-size: 13px;
+    line-height: normal;
+    background: silver;
+    box-shadow: inset -1px -1px #0a0a0a, inset 1px 1px #fff, inset -2px -2px grey, inset 2px 2px #dfdfdf;
+    border: none;
+    border-radius: 0;
+    height: 25px;
+    padding: 0 25px;
+}
+
+.buttons {
+    margin-top: 2px;
+    height: 30px;
 }
